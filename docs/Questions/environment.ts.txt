@@ -1,0 +1,38 @@
+Q: What is the purpose of this file?
+A: This file centralizes configuration values for the Playwright test project, such as the base URL and user credentials, so they are easy to manage and reuse.
+
+Q: What does the exported config object contain?
+A: It contains a baseUrl property and a users object with standard user credentials.
+
+Q: What is the role of process.env in this file?
+A: process.env is used to read environment variables from the system or terminal, allowing values to be configured dynamically instead of hardcoded.
+
+Q: What happens if BASE_URL is not set?
+A: The code uses the fallback value https://dev-prelive-flightdeck.resolutiondigital.com.au.
+
+Q: What happens if STANDARD_USERNAME or STANDARD_PASSWORD are not set?
+A: The code uses default fallback values: standard_user and secret_sauce.
+
+Q: Why is the || operator used in this file?
+A: It provides fallback values when the environment variable is missing, undefined, null, or empty.
+
+Q: What is the benefit of using environment variables?
+A: They improve security, flexibility, and maintainability by keeping sensitive values like passwords out of the source code.
+
+Q: How can you set these values in PowerShell?
+A: You can run commands like:
+
+$env:BASE_URL="https://qa.example.com"
+$env:STANDARD_USERNAME="qauser"
+$env:STANDARD_PASSWORD="Password123"
+Q: Why is this file considered a good practice in test automation?
+A: It keeps test data and configuration organized, makes the tests reusable across environments, and helps avoid hardcoding sensitive values.
+
+Q: How would you extend this configuration for multiple users?
+A: You can add more user objects such as admin, standard, and readonly inside the users section, each with its own username and password environment variables.
+
+Q: What is the difference between hardcoded values and environment-based values?
+A: Hardcoded values are fixed in the code, while environment-based values can change depending on the environment without changing the source code.
+
+Q: What is the significance of the import from ../test-data/users.json?
+A: It shows that the project can also reuse external test data, though this specific file primarily uses environment variables and fallback values.

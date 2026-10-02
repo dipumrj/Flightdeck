@@ -1,0 +1,39 @@
+Q: What is the purpose of this file?
+
+A: It defines a Page Object Model class for the login page. It keeps page interactions like opening the page, logging in, and checking messages in one place.
+
+Q: What does the LoginPage class do?
+
+A: It wraps the UI actions for the login page, making tests cleaner and easier to maintain.
+
+Q: Why are the methods declared as async?
+
+A: Because Playwright actions such as fill(), click(), and isVisible() return promises, so they must be awaited.
+
+Q: What happens in the login() method?
+
+A: It fills the username and password fields and clicks the login button using locators.
+
+Q: What does getErrorMessage() return?
+
+A: It returns the visible text content of the error message element from the page.
+
+Q: What does isLoginButtonVisible() check?
+
+A: It checks whether the error message element is currently visible on the page.
+
+Q: Why is await used before textContent() and isVisible()?
+
+A: Because those methods are asynchronous and return promises that need to be resolved before the value is used.
+
+Q: What is the benefit of using page objects like this?
+
+A: They improve code reusability, readability, and maintainability in automation tests.
+
+Q: What could be improved in this code?
+
+A: You could add explicit return types, better error handling, and more descriptive method names.
+
+Q: How does this file support Playwright testing?
+
+A: It provides reusable page-level methods that tests can call without repeating locator logic.

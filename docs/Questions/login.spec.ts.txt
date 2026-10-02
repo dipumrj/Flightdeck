@@ -1,0 +1,51 @@
+x	Q1 — What is the purpose of login.spec.ts?
+
+A: It contains Playwright tests for the Flightdeck login flow: a success login test and a client-creation flow test, grouped with test.describe.
+Q2 — What role does test.fixture.ts play in these tests?
+
+A: It provides custom fixtures injected into each test (e.g., loginPage, clientAddPage), encapsulating page objects and shared setup/teardown.
+Q3 — How is users.json used and why is it useful?
+
+A: users.json stores test credentials (e.g., standardUser) so tests are data-driven and credentials can be changed without editing tests.
+Q4 — Explain the steps in the "logs in successfully with valid credentials" test.
+
+A: Open login page via loginPage.openLoginPage(), call loginPage.login(username, password), then assert navigation succeeded with await expect(loginPage.page).toHaveURL(/dashboard/).
+Q5 — What does toHaveURL(/dashboard/) check and why use a regex?
+
+A: It asserts the current URL matches the regex /dashboard/, allowing partial matching (works for /app/dashboard or /dashboard/123).
+Q6 — Describe what createClientFromSidebarFlow is doing in the second test.
+
+A: It's a helper on clientAddPage that receives a client-details object and fills/submits the client creation form via the sidebar flow.
+Q7 — Any issues with using an absolute Windows path for companyLogo?
+
+A: Yes—absolute paths are platform-specific and brittle. Prefer test assets relative to repo (use path.join(__dirname, 'fixtures', 'company.png')) or use Playwright file upload helpers.
+Q8 — Why is there a commented-out invalid-credentials test and how should it be used?
+
+A: It's an example for negative-path testing. Re-enable and assert getErrorMessage() or isVisible() to verify proper error handling.
+Q9 — How can these tests be made more reliable (avoid flakiness)?
+
+A: Wait for explicit navigation or elements after actions (e.g., await Promise.all([page.waitForNavigation(), click()]) or await page.waitForSelector(...)), and assert visible states rather than timing.
+Q10 — Where should repeated login steps be moved to for cleaner tests?
+
+A: Use test.beforeEach in the test.describe block or create a fixture that performs login once per test when needed.
+Q11 — Suggest improvements to assertions after creating a client.
+
+A: Assert a definitive outcome: URL includes client ID, success toast visible, or client appears in the clients list (await expect(page.locator(...)).toContainText(clientName)).
+Q12 — What typing/return-value improvements are recommended for page objects used here?
+
+A: Add explicit return types (e.g., Promise<void>, Promise<string>), and have createClientFromSidebarFlow return a success flag or created client id for stronger assertions.
+Q13 — How should sensitive test data (emails/passwords) be managed?
+
+A: Keep secrets out of repo: use environment variables or secret stores and inject them via CI/test fixtures.
+Q14 — How to run only this test file or a single test locally?
+
+npx playwright test Login/tests/login.spec.ts
+npx playwright test -g "logs in successfully with valid credentials"
+
+A: Use Playwright CLI:
+Q15 — How to capture artifacts on failure (screenshots, traces, videos)?
+
+A: Enable in playwright.config.ts or in fixtures: use: { screenshot: 'only-on-failure', trace: 'retain-on-failure', video: 'on-first-retry' }.
+Q16 — Any accessibility or cleanup suggestions for the test code?
+
+A: Remove long inline comments from test body, move explanatory comments to docs, and ensure cleanup for created test data (delete test client in teardown).

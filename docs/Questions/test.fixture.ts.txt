@@ -1,0 +1,44 @@
+Q: What is the purpose of this file?
+A: This file creates custom Playwright fixtures so tests can use page object instances like loginPage and clientAddPage without manually instantiating them.
+
+Q: What does the base fixture represent?
+A: It is Playwright’s built-in test object, which is extended to add custom fixtures for the project.
+
+Q: Why is the file named test.fixture.ts?
+A: It contains reusable test fixtures that provide common objects and setup to test files.
+
+Q: What are the custom fixtures defined here?
+A: The file defines loginPage and clientAddPage as custom fixtures.
+
+Q: How does the loginPage fixture work?
+A: It receives the built-in page fixture, creates a new LoginPage instance using that page, and passes it into the test via use.
+
+Q: How does the clientAddPage fixture work?
+A: Similar to loginPage, it creates a new ClientAddPage instance from the page fixture and makes it available to the test.
+
+Q: What is the benefit of using fixtures in Playwright?
+A: Fixtures reduce duplication, improve test readability, and provide consistent setup for page objects.
+
+Q: What does the TestFixtures type define?
+A: It defines the shape of the custom fixture context, telling TypeScript which objects will be available in tests.
+
+Q: Why is the use function important?
+A: The use function passes the initialized fixture object into the test so it can be accessed through the test arguments.
+
+Q: How does this file help in test files like login.spec.ts?
+A: It allows tests to import test and expect from this fixture file and then use fixtures directly, such as async ({ loginPage }) => { ... }.
+
+Q: What is the role of base.extend?
+A: It extends Playwright’s base test object with additional fixtures and types.
+
+Q: What does export { expect } from '@playwright/test' do?
+A: It re-exports Playwright’s expect so test files can use the same assertion library without importing it separately.
+
+Q: How would you explain this approach to an interviewer?
+A: I would say it follows the Page Object Model pattern and makes tests cleaner, more maintainable, and easier to scale.
+
+Q: What is the advantage of using page object classes with fixtures?
+A: It separates test logic from UI interactions, making tests easier to maintain and less brittle.
+
+Q: Can this pattern be extended for more fixtures?
+A: Yes, you can add additional fixtures like apiClient, authToken, or databaseHelper in the same way.

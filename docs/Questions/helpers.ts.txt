@@ -1,0 +1,32 @@
+Q1 — What does Helpers.waitForPageLoad(page) do?
+
+A: Calls page.waitForLoadState('networkidle') to wait until Playwright detects no network activity (~500ms), returning Promise<void>.
+Q2 — Why use 'networkidle' instead of 'load' or 'domcontentloaded'?
+
+A: 'networkidle' waits for background requests to finish (useful for SPAs or async data); 'load' only waits for load event and may be too early for dynamic content.
+Q3 — What are the downsides or flakiness risks of relying on networkidle?
+
+A: Long-polling/XHR or persistent connections can keep network active; intermittent background requests can make the wait unreliable or slow tests.
+Q4 — How would you make this helper more robust?
+
+A: Allow an options parameter (state, timeout), or prefer waiting for a specific post-load element or response (e.g., await page.waitForSelector('#dashboard') or page.waitForResponse(...)) rather than only networkidle.
+Q5 — Is the typing appropriate in this file? Any improvements?
+
+A: It types the page as Page and returns Promise<void> — that's good. Could add overloads or generics if accepting different page-like objects, but current typing is fine.
+Q6 — Suggest an API change to improve usability in tests.
+
+A: Add an optional timeout and state param: waitForPageLoad(page: Page, options?: { state?: LoadState; timeout?: number }) and use those in waitForLoadState().
+Q7 — When should you use this helper vs. page.waitForSelector()?
+
+A: Use this helper for general background network quiescence; use waitForSelector when you need a specific UI element to be present for assertions — the latter is usually more deterministic.
+Q8 — How would you test this helper itself?
+
+A: Write a unit/integration test that navigates to a page which triggers known network requests, then call Helpers.waitForPageLoad(page) and assert the intended element (or mock network) appears after the wait.
+Q9 — Any naming or organizational improvements?
+
+A: Rename to waitForNetworkIdle for clarity, or move helpers to a shared test-utils module with more utilities (timeouts, retries).
+Q10 — How can this helper be used with navigation to avoid race conditions?
+await Promise.all([page.waitForLoadState('networkidle'), page.goto(url)]);
+
+A: Combine navigation and wait in a Promise.all, e.g.:
+or use page.goto(url, { waitUntil: 'networkidle' }).

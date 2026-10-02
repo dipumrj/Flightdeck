@@ -1,0 +1,44 @@
+Q: What is the purpose of this file?
+A: This file stores Playwright locators for the login page and client add form, so selectors are centralized and easier to maintain.
+
+Q: What are the two main locator groups defined in this file?
+A: The file defines loginLocators for the login page and clientAddLocators for the client creation form.
+
+Q: What does loginLocators contain?
+A: It contains locator functions for the username input, password input, login button, and error message.
+
+Q: What does clientAddLocators contain?
+A: It contains locator functions for fields such as profile description, client name, website URL, logo upload, contact person, contact email, address, industry category, submit button, and success message.
+
+Q: Why are locators stored in a separate file?
+A: Keeping locators in one place improves maintainability, reduces duplication, and makes updates easier when UI selectors change.
+
+Q: What is the role of the page parameter in these locator functions?
+A: The page parameter provides the Playwright Page instance on which the locator is created.
+
+Q: What does getByRole mean in Playwright?
+A: It finds elements by their accessibility role, such as textbox or button, which makes tests more resilient and readable.
+
+Q: Why is .first() used in some locators?
+A: It ensures the first matching element is selected when multiple elements could match the same selector.
+
+Q: How is the username input locator defined?
+A: It uses page.getByRole('textbox', { name: 'Enter Username' }) to locate the username field by role and accessible name.
+
+Q: How is the login button locator defined?
+A: It uses page.getByRole('button', { name: 'Login' }) to locate the primary login button.
+
+Q: What is the purpose of the errorMessage locator?
+A: It is used to find the validation or error message displayed after failed login attempts.
+
+Q: Why might the industryCategoryInput locator be more complex than the other ones?
+A: Because the industry category field may be implemented with different selectors such as placeholder, aria-label, or combobox role, so the locator needs to handle multiple possible patterns.
+
+Q: How do these locators support the Page Object Model?
+A: They separate UI element identification from test logic, making page objects cleaner and easier to maintain.
+
+Q: What is a benefit of using accessible selectors like getByRole?
+A: They are more robust and align better with real user interaction than brittle CSS selectors.
+
+Q: What would you say if the UI text changes?
+A: I would update the locator in this file, which keeps the test logic unchanged and avoids widespread edits.

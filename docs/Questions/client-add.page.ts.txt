@@ -1,0 +1,44 @@
+Q: What is the purpose of this page object?
+A: It encapsulates the client creation workflow, including opening the sidebar flow, filling form fields, and submitting the client form.
+
+Q: What is the role of the class ClientAddPage?
+A: It extends BasePage and provides reusable methods for interacting with the client add UI.
+
+Q: What does the method createClientFromSidebarFlow do?
+A: It performs the end-to-end flow of opening the client option from the sidebar, searching for a client, opening the add client modal, filling details, and submitting the form.
+
+Q: Why are some methods marked as private?
+A: Private methods are internal helper methods used only within the class, such as clicking the sidebar option or opening the modal.
+
+Q: What is the purpose of fillClientDetails?
+A: It fills all the input fields in the client form based on the data object passed into the method.
+
+Q: What type of input does the method accept?
+A: It accepts an object containing properties like profileDescription, clientName, websiteURL, companyLogo, contactPerson, contactEmail, address, and industryCategory.
+
+Q: How does the method handle the company logo?
+A: If a companyLogo value is provided, it uploads the file using the input element; otherwise it skips that step.
+
+Q: What does selectIndustryCategory do?
+A: It opens the industry category dropdown, types the category name into the search input, and selects the matching option.
+
+Q: What does submitClientForm do?
+A: It clicks the submit button on the client form.
+
+Q: What is the benefit of using page object methods like this?
+A: It keeps test logic clean and makes the UI interactions easier to maintain and reuse.
+
+Q: How is this file aligned with the Page Object Model?
+A: Each user action is wrapped in a method, so tests can call high-level actions rather than interacting with low-level selectors directly.
+
+Q: Why is the method completeClientAddFlow useful?
+A: It provides a simpler flow for navigating to the client add page, filling the form, and submitting it in one step.
+
+Q: What is the purpose of navigateToClientAddPage?
+A: It navigates directly to the client add page using the page.goto method.
+
+Q: How would you explain the overall flow in an interview?
+A: I would say the page object abstracts the complex UI workflow into reusable methods, making the automation more structured and maintainable.
+
+Q: What would you improve in this page object?
+A: I would add waits for UI stability, better error handling, and assertions for success state to make the flow more robust.

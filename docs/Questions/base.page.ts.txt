@@ -1,0 +1,35 @@
+Q: What is the purpose of BasePage in this code?
+A: BasePage is a reusable page object class in Playwright that contains common methods shared by all pages, such as opening a URL and waiting for the page title.
+
+Q: What does the constructor do in BasePage?
+A: The constructor accepts a Playwright Page object and stores it in the class so all methods can use the same browser page instance.
+
+Q: What is the role of the open method?
+A: The open method navigates to a given path using page.goto(path). It is used to open a specific page in the application.
+
+Q: Why is the open method useful in a Page Object Model?
+A: It centralizes navigation logic, making tests cleaner and easier to maintain because page navigation is handled in one place.
+
+Q: What does waitForPageTitle do?
+A: It waits until the browser page title contains the expected value using page.waitForFunction.
+
+Q: How does waitForPageTitle work internally?
+A: It runs a browser-side condition that checks document.title.includes(value) until the title matches the expected string.
+
+Q: Why is waitForFunction used here?
+A: It allows the test to wait dynamically until the page has loaded and the title becomes available or matches.
+
+Q: What is the difference between a string and a regular expression in waitForPageTitle?
+A: The method accepts either a string or RegExp, which makes it flexible for matching titles in different ways.
+
+Q: What is the significance of baseURL in Playwright?
+A: If baseURL is configured, relative paths like /dashboard are resolved against that URL, making navigation simpler.
+
+Q: What is one improvement suggestion for this code?
+A: A better alternative for waiting for the title is using Playwright’s expect(page).toHaveTitle(...), which is more readable and idiomatic.
+
+Q: What is the advantage of using a BasePage class?
+A: It promotes code reusability, maintainability, and cleaner test scripts by avoiding duplicate navigation and waiting logic.
+
+Q: Can you explain the flow of calling open and waitForPageTitle in a test?
+A: A test creates a page object, calls open('/dashboard') to navigate, and then uses waitForPageTitle('Dashboard') to ensure the page is ready before interacting with it.
