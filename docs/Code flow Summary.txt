@@ -1,0 +1,7 @@
+Code flow summary
+•	Tests import the custom test fixture and users data.
+•	Fixture constructs LoginPage and injects loginPage into tests.
+•	LoginPage (in pages/login.page.ts) extends BasePage, uses locators/login.locators.ts, and calls utilities in utils/helpers.ts.
+•	BasePage wraps Playwright navigation and common waits.
+•	config/environment.ts centralizes baseUrl and credentials; test-data/users.json supplies user data.
+•	Tests assert via expect(...); Playwright generates traces/reports under reports/.

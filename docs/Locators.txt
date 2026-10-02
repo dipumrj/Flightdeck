@@ -1,0 +1,53 @@
+https://playwright.dev/docs/locators
+
+Locate by role
+<button>Sign in</button>
+await page.getByRole('button', { name: 'Sign in' }).click();
+await expect(page.getByRole('heading', { name: 'Sign up' })).toBeVisible();
+await page.getByRole('checkbox', { name: 'Subscribe' }).check();
+await page.getByRole('button', { name: /submit/i }).click();
+Locate by label
+<label>Password <input type="password" /></label>
+await page.getByLabel('Password').fill('secret');
+Locate by placeholder
+<input type="email" placeholder="name@example.com" />
+await page.getByPlaceholder('name@example.com').fill('playwright@microsoft.com');
+Locate by text
+<span>Welcome, John</span>
+await expect(page.getByText('Welcome, John')).toBeVisible();
+Locate by alt text
+<img alt="playwright logo" src="/img/playwright-logo.svg" width="100" />
+await page.getByAltText('playwright logo').click();
+Locate by title
+<span title='Issues count'>25 issues</span>
+await expect(page.getByTitle('Issues count')).toHaveText('25 issues');
+Locate by test id
+<button data-testid="directions">Itinéraire</button>
+await page.getByTestId('directions').click();
+Locate by CSS or XPath
+await page.locator('button').click();
+await page.locator('//button').click();
+Locate in Shadow DOM
+<x-details role=button aria-expanded=true aria-controls=inner-details>
+  <div>Title</div>
+  #shadow-root
+    <div id=inner-details>Details</div>
+</x-details>
+await page.locator('x-details', { hasText: 'Details' }).click();
+
+Filtering Locators
+<ul>
+  <li>
+    <h3>Product 1</h3>
+    <button>Add to cart</button>
+  </li>
+  <li>
+    <h3>Product 2</h3>
+    <button>Add to cart</button>
+  </li>
+</ul>
+await page
+    .getByRole('listitem')
+    .filter({ hasText: 'Product 2' })
+    .getByRole('button', { name: 'Add to cart' })
+    .click();

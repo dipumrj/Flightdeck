@@ -1,0 +1,112 @@
+Login/
+├── tests/                 # Test specs
+│   └── login.spec.ts     # Sample login test cases
+├── pages/                # Page Object Model
+│   ├── base.page.ts      # Base page with common methods
+│   └── login.page.ts     # Login page implementation
+├── fixtures/            # Test fixtures
+│   └── test.fixture.ts   # Custom fixtures with LoginPage
+├── locators/            # Centralized selectors
+│   └── login.locators.ts # Login page selectors
+├── config/              # Environment config
+│   └── environment.ts    # Settings & credentials
+├── test-data/           # Test data
+│   └── users.json        # User credentials
+├── utils/               # Helper functions
+│   └── helpers.ts        # Reusable utilities
+├── reports/             # Test results & artifacts
+│   └── test-results/    # HTML reports, traces, videos
+├── package.json         # Dependencies
+├── playwright.config.ts # Playwright configuration
+├── tsconfig.json        # TypeScript config
+├── .gitignore          # Version control exclude
+└── README.md           # Project documentation
+
+
+
+How to Extend
+Add a new page object:
+
+// pages/inventory.page.ts
+import { BasePage } from './base.page';
+
+export class InventoryPage extends BasePage {
+  async selectProduct(productName: string) {
+    await this.page.click(`text=${productName}`);
+  }
+}
+
+Run all tests: npm test
+Run headless (visual): npm run test:headed
+Debug mode: npm run test:debug
+View HTML report: npm run report
+
+
+-----Command----
+How to provide it
+PowerShell (current session):
+
+$env:BASE_URL = "https://qa.example.com"
+npx playwright test
+
+Runs the tests only on Desktop Chrome in headed mode
+npx playwright test tests/login.spec.ts --project=chromium --headed
+
+Runs the tests in debug mode.
+npx playwright test login.spec.ts --debug 
+
+Starts the interactive UI mode.
+npx playwright test --ui
+
+npx playwright test tests/login.spec.ts --grep "creates a new client through the requested workspace flow" 
+npx playwright show-report reports\html
+--npx playwright codegen https://dev-prelive-flightdeck.resolutiondigital.com.au
+npx playwright codegen --channel=chrome https://dev-prelive-flightdeck.resolutiondigital.com.au/
+
+Emulate viewport size
+npx playwright codegen --viewport-size="1920,1080" https://dev-prelive-flightdeck.resolutiondigital.com.au
+
+Emulate devices(shown issue)
+npx playwright codegen --device="iPhone 15" https://dev-prelive-flightdeck.resolutiondigital.com.au
+
+Emulate geolocation, language and timezone
+npx playwright codegen --timezone="Europe/Rome" --geolocation="41.890221,12.492348" --lang="it-IT" https://dev-prelive-flightdeck.resolutiondigital.com.au
+
+Preserve authenticated state
+npx playwright codegen https://dev-prelive-flightdeck.resolutiondigital.com.au --save-storage=auth.json
+
+Load authenticated state
+npx playwright codegen --load-storage=auth.json https://dev-prelive-flightdeck.resolutiondigital.com.au
+
+npx playwright test tests/login.spec.ts --list
+npx playwright test Login/tests/login.spec.ts --config Login/playwright.config.ts
+
+cd "C:\D-Drive\AUTOMATION\PlayWrightAutomation\SiteLogin\Login"
+
+
+  
+
+
+
+
+
+
+---Short Keys---
+Go to Definition: F12. Takes you to the exact file and line where the function is created.
+Peek Definition: Alt + F12 . Opens a small window showing the function's code right in place.
+Go Back / Forward: Alt + Left/Right of recent file editors
+Show All References: Shift + F12
+Go to Symbol: Ctrl + T / Cmd + T. Searches for a specific function name across all open files.
+Disable code ctrl+/
+
+---TroubleShooting---
+Your failed command ran from:
+C:\D-Drive\AUTOMATION\PlayWrightAutomation\Flightdeck
+But the Playwright project is here:
+C:\D-Drive\AUTOMATION\PlayWrightAutomation\Flightdeck\Login
+
+Set-Location "C:\D-Drive\AUTOMATION\PlayWrightAutomation\Flightdeck\Login"
+npx playwright test tests/login.spec.ts --project=chromium --headed
+
+or change directory manually
+

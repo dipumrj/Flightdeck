@@ -1,0 +1,452 @@
+﻿
+      "title": "",
+      "placeholder": "",
+      "html": "<button class=\"h-[50px] w-[50px] my-14 flex items-center 
+justify-center rounded-[10px] hover:!bg-omni-blue-light bg-white 
+v-popper--has-tooltip\"><img class=\"h-[26px] w-[26px]\" src=\"https://dev-prel
+ive-flightdeck.resolutiondigital.com.au/assets/icon-menu-black-reports.svg\" 
+alt=\"Reports\"></button>",
+      "cls": "h-[50px] w-[50px] my-14 flex items-center justify-center 
+rounded-[10px] hover:!bg-omni-blue-light bg-white v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "html": "<button class=\"h-[50px] w-[50px] my-14 flex items-center 
+justify-center rounded-[10px] hover:!bg-omni-blue-light bg-white 
+v-popper--has-tooltip\"><img class=\"h-[26px] w-[26px]\" src=\"data:image/svg+x
+ml,%3csvg%20width='22'%20height='18'%20viewBox='0%200%2022%2018'%20fill='none'%
+20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_504_77)'%
+3e%3cpath%20d='M21.125%2011.775V16.275C21.125%2017.025%2020.525%2017.625%2019.7
+75%2017.625H2.22502C1.47502%2017.625%200.875015%2017.025%200.87501",
+      "cls": "h-[50px] w-[50px] my-14 flex items-center justify-center 
+rounded-[10px] hover:!bg-omni-blue-light bg-white v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "html": "<button class=\"h-[50px] w-[50px] my-14 flex items-center 
+justify-center rounded-[10px] hover:!bg-omni-blue-light bg-white 
+v-popper--has-tooltip\"><img class=\"h-[26px] w-[26px]\" src=\"data:image/svg+x
+ml,%3csvg%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%20fill='none'%
+20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rul
+e='evenodd'%20d='M12.22%202.125C13.3959%202.12466%2014.524%202.59028%2015.3573%
+203.4199L15.3587%203.42128L29.0987%2017.1613C30.1404%2018.203%2030",
+      "cls": "h-[50px] w-[50px] my-14 flex items-center justify-center 
+rounded-[10px] hover:!bg-omni-blue-light bg-white v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "html": "<button class=\"h-[50px] w-[50px] my-14 flex items-center 
+justify-center rounded-[10px] hover:!bg-omni-blue-light bg-white 
+v-popper--has-tooltip\"><img class=\"h-[26px] w-[26px]\" src=\"data:image/svg+x
+ml,%3csvg%20width='32'%20height='32'%20viewBox='0%200%2032%2032'%20fill='none'%
+20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rul
+e='evenodd'%20d='M19.872%2014.705L19.816%2014.838L13.816%2027.838C13.104%2029.3
+81%2010.941%2029.375%2010.211%2027.896L10.143%2027.743L8.86501%202",
+      "cls": "h-[50px] w-[50px] my-14 flex items-center justify-center 
+rounded-[10px] hover:!bg-omni-blue-light bg-white v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "html": "<button class=\"h-[50px] w-[50px] my-14 flex items-center 
+justify-center rounded-[10px] hover:!bg-omni-blue-light bg-white 
+v-popper--has-tooltip\"><img class=\"h-[26px] w-[26px]\" src=\"data:image/svg+x
+ml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3e%3
+cpath%20fill-rule='evenodd'%20d='M11.956%202.08a1.998%201.998%200%20012.162.726
+L15.81%205.08l.19-.004.188.004%201.696-2.275a2%202%200%20012-.765l.16.04c1.025.
+297%202.01.706%202.94%201.219a2%202%200%20011.015%202.04l-.41%202.",
+      "cls": "h-[50px] w-[50px] my-14 flex items-center justify-center 
+rounded-[10px] hover:!bg-omni-blue-light bg-white v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "html": "<button class=\"bg-white rounded-full h-[26px] w-[26px] flex 
+items-center justify-center shadow absolute -right-[13px] top-[12%] 
+text-omni-primary hover:bg-omni-gradient-primary hover:text-white 
+v-popper--has-tooltip\"><span class=\"block\" style=\"width: 20px; height: 
+20px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" 
+viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" 
+stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"feather 
+feather-chevron-left\"><polyline ",
+      "cls": "bg-white rounded-full h-[26px] w-[26px] flex items-center 
+justify-center shadow absolute -right-[13px] top-[12%] text-omni-primary 
+hover:bg-omni-gradient-primary hover:text-white v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<input data-v-717f0938=\"\" id=\"client-search\" type=\"text\" 
+autocomplete=\"off\" class=\"appearance-none w-full rounded-md overflow-hidden 
+placeholder:text-omni-core-medium min-h-[36px] py-2 text-sm 
+bg-omni-core-medium-two focus:outline-none focus:border-omni-primary leading-6 
+h-input disabled:pointer-events-none disabled:opacity-[0.4] text-ellipsis 
+focus:bg-white border-1 border-solid border-gray-100/20 hover:shadow pl-[40px] 
+pr-[24px]\" placeholder=\"Search Clients\" maxlength=\"\" min=\"0\" 
+pattern=\"\" ste",
+      "cls": "appearance-none w-full rounded-md overflow-hidden 
+placeholder:text-omni-core-medium min-h-[36px] py-2 text-sm 
+bg-omni-core-medium-two focus:outline-none focus:border-omni-primary leading-6 
+h-input disabled:pointer-events-none disabled:opacity-[0.4] text-ellipsis 
+focus:bg-white border-1 border-solid border-gray-100/20 hover:shadow pl-[40px] 
+pr-[24px]",
+      "title": "",
+      "placeholder": "Search Clients",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"border rounded p-2 w-full 
+border-gray-50 text-omni-core-dark\"><div data-v-9391b8d3=\"\" id=\"4312\" 
+class=\"w-full\"><div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4312</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-ev",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" id=\"4312\" class=\"w-full\"><div 
+data-v-9391b8d3=\"\" class=\"flex justify-between items-center p-2 
+px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 -mt-2 p-1 
+rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4312</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" xmlns=\"http://www.w3.org/",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4312</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" 
+xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" d=\"M5.38894 
+1.",
+      "title": "",
+      "placeholder": "",
+      "html": "<button data-v-9391b8d3=\"\" type=\"button\" class=\"p-1 
+v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" class=\"-mt-2 cursor-pointer 
+pointer-events-stroke\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" 
+fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" 
+d=\"M5.38894 1.43241C5.58172 0.813546 6.41904 0.813546 6.61118 1.43241L7.58731 
+4.57308C7.62932 4.70779 7.71098 4.82518 7.82062 4.90845C7.93027 4.99172 
+8.06228 5.03662 8.19779 5.03672H11.3562C11.9789 5.03672 12.2372 5.86993 
+11.7341 6.252",
+      "cls": "p-1 v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"v-popper--has-tooltip\"><h2 
+data-v-9391b8d3=\"\" class=\"text-center text py-2\"><div data-v-9391b8d3=\"\" 
+class=\"w-full line-clamp-1 mb-2\">AI Overview Huggies</div><div 
+data-v-9391b8d3=\"\" class=\"text-blue-25 text-xs mt-0.5 w-full 
+line-clamp-1\">https://www.huggies.com.au/</div></h2></div>",
+      "cls": "v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"border rounded p-2 w-full 
+border-gray-50 text-omni-core-dark\"><div data-v-9391b8d3=\"\" id=\"4313\" 
+class=\"w-full\"><div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4313</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-ev",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" id=\"4313\" class=\"w-full\"><div 
+data-v-9391b8d3=\"\" class=\"flex justify-between items-center p-2 
+px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 -mt-2 p-1 
+rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4313</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" xmlns=\"http://www.w3.org/",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4313</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" 
+xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" d=\"M5.38894 
+1.",
+      "title": "",
+      "placeholder": "",
+      "html": "<button data-v-9391b8d3=\"\" type=\"button\" class=\"p-1 
+v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" class=\"-mt-2 cursor-pointer 
+pointer-events-stroke\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" 
+fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" 
+d=\"M5.38894 1.43241C5.58172 0.813546 6.41904 0.813546 6.61118 1.43241L7.58731 
+4.57308C7.62932 4.70779 7.71098 4.82518 7.82062 4.90845C7.93027 4.99172 
+8.06228 5.03662 8.19779 5.03672H11.3562C11.9789 5.03672 12.2372 5.86993 
+11.7341 6.252",
+      "cls": "p-1 v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"v-popper--has-tooltip\"><h2 
+data-v-9391b8d3=\"\" class=\"text-center text py-2\"><div data-v-9391b8d3=\"\" 
+class=\"w-full line-clamp-1 mb-2\">AI Overview Huggies Verification</div><div 
+data-v-9391b8d3=\"\" class=\"text-blue-25 text-xs mt-0.5 w-full 
+line-clamp-1\">https://www.huggies.com.au/</div></h2></div>",
+      "cls": "v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"border rounded p-2 w-full 
+border-gray-50 text-omni-core-dark\"><div data-v-9391b8d3=\"\" id=\"4307\" 
+class=\"w-full\"><div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4307</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-ev",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" id=\"4307\" class=\"w-full\"><div 
+data-v-9391b8d3=\"\" class=\"flex justify-between items-center p-2 
+px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 -mt-2 p-1 
+rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4307</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" xmlns=\"http://www.w3.org/",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4307</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" 
+xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" d=\"M5.38894 
+1.",
+      "title": "",
+      "placeholder": "",
+      "html": "<button data-v-9391b8d3=\"\" type=\"button\" class=\"p-1 
+v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" class=\"-mt-2 cursor-pointer 
+pointer-events-stroke\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" 
+fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" 
+d=\"M5.38894 1.43241C5.58172 0.813546 6.41904 0.813546 6.61118 1.43241L7.58731 
+4.57308C7.62932 4.70779 7.71098 4.82518 7.82062 4.90845C7.93027 4.99172 
+8.06228 5.03662 8.19779 5.03672H11.3562C11.9789 5.03672 12.2372 5.86993 
+11.7341 6.252",
+      "cls": "p-1 v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"v-popper--has-tooltip\"><h2 
+data-v-9391b8d3=\"\" class=\"text-center text py-2\"><div data-v-9391b8d3=\"\" 
+class=\"w-full line-clamp-1 mb-2\">Algorithmic Authorization</div><div 
+data-v-9391b8d3=\"\" class=\"text-blue-25 text-xs mt-0.5 w-full 
+line-clamp-1\">www.huggies.com.au</div></h2></div>",
+      "cls": "v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"border rounded p-2 w-full 
+border-gray-50 text-omni-core-dark\"><div data-v-9391b8d3=\"\" id=\"4420\" 
+class=\"w-full\"><div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4420</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-ev",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" id=\"4420\" class=\"w-full\"><div 
+data-v-9391b8d3=\"\" class=\"flex justify-between items-center p-2 
+px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 -mt-2 p-1 
+rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4420</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" xmlns=\"http://www.w3.org/",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4420</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" 
+xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" d=\"M5.38894 
+1.",
+      "title": "",
+      "placeholder": "",
+      "html": "<button data-v-9391b8d3=\"\" type=\"button\" class=\"p-1 
+v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" class=\"-mt-2 cursor-pointer 
+pointer-events-stroke\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" 
+fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" 
+d=\"M5.38894 1.43241C5.58172 0.813546 6.41904 0.813546 6.61118 1.43241L7.58731 
+4.57308C7.62932 4.70779 7.71098 4.82518 7.82062 4.90845C7.93027 4.99172 
+8.06228 5.03662 8.19779 5.03672H11.3562C11.9789 5.03672 12.2372 5.86993 
+11.7341 6.252",
+      "cls": "p-1 v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"v-popper--has-tooltip\"><h2 
+data-v-9391b8d3=\"\" class=\"text-center text py-2\"><div data-v-9391b8d3=\"\" 
+class=\"w-full line-clamp-1 mb-2\">Anaconda australia</div><div 
+data-v-9391b8d3=\"\" class=\"text-blue-25 text-xs mt-0.5 w-full line-clamp-1\">
+https://www.anacondastores.com/?msockid=3da9bddce0496aa11791ab31e18c6b7e</div><
+/h2></div>",
+      "cls": "v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"border rounded p-2 w-full 
+border-gray-50 text-omni-core-dark\"><div data-v-9391b8d3=\"\" id=\"4269\" 
+class=\"w-full\"><div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4269</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-ev",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" id=\"4269\" class=\"w-full\"><div 
+data-v-9391b8d3=\"\" class=\"flex justify-between items-center p-2 
+px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 -mt-2 p-1 
+rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4269</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" xmlns=\"http://www.w3.org/",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4269</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" 
+xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" d=\"M5.38894 
+1.",
+      "title": "",
+      "placeholder": "",
+      "html": "<button data-v-9391b8d3=\"\" type=\"button\" class=\"p-1 
+v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" class=\"-mt-2 cursor-pointer 
+pointer-events-stroke\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" 
+fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" 
+d=\"M5.38894 1.43241C5.58172 0.813546 6.41904 0.813546 6.61118 1.43241L7.58731 
+4.57308C7.62932 4.70779 7.71098 4.82518 7.82062 4.90845C7.93027 4.99172 
+8.06228 5.03662 8.19779 5.03672H11.3562C11.9789 5.03672 12.2372 5.86993 
+11.7341 6.252",
+      "cls": "p-1 v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"v-popper--has-tooltip\"><h2 
+data-v-9391b8d3=\"\" class=\"text-center text py-2\"><div data-v-9391b8d3=\"\" 
+class=\"w-full line-clamp-1 mb-2\">ANZ Branches</div><div data-v-9391b8d3=\"\" 
+class=\"text-blue-25 text-xs mt-0.5 w-full 
+line-clamp-1\">https://www.anz.com.au/locations/</div></h2></div>",
+      "cls": "v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"border rounded p-2 w-full 
+border-gray-50 text-omni-core-dark\"><div data-v-9391b8d3=\"\" id=\"4209\" 
+class=\"w-full\"><div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4209</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-ev",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" id=\"4209\" class=\"w-full\"><div 
+data-v-9391b8d3=\"\" class=\"flex justify-between items-center p-2 
+px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 -mt-2 p-1 
+rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4209</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" xmlns=\"http://www.w3.org/",
+      "title": "",
+      "placeholder": "",
+      "html": "<div data-v-9391b8d3=\"\" class=\"flex justify-between 
+items-center p-2 px-1\"><span data-v-9391b8d3=\"\" class=\"text-xs bg-gray-100 
+-mt-2 p-1 rounded cursor-pointer inline-block font-semibold 
+v-popper--has-tooltip\">4209</span><button data-v-9391b8d3=\"\" 
+type=\"button\" class=\"p-1 v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" 
+class=\"-mt-2 cursor-pointer pointer-events-stroke\" width=\"12\" 
+height=\"13\" viewBox=\"0 0 12 13\" fill=\"none\" 
+xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" d=\"M5.38894 
+1.",
+      "title": "",
+      "placeholder": "",
+      "html": "<button data-v-9391b8d3=\"\" type=\"button\" class=\"p-1 
+v-popper--has-tooltip\"><svg data-v-9391b8d3=\"\" class=\"-mt-2 cursor-pointer 
+pointer-events-stroke\" width=\"12\" height=\"13\" viewBox=\"0 0 12 13\" 
+fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path data-v-9391b8d3=\"\" 
+d=\"M5.38894 1.43241C5.58172 0.813546 6.41904 0.813546 6.61118 1.43241L7.58731 
+4.57308C7.62932 4.70779 7.71098 4.82518 7.82062 4.90845C7.93027 4.99172 
+8.06228 5.03662 8.19779 5.03672H11.3562C11.9789 5.03672 12.2372 5.86993 
+11.7341 6.252",
+      "cls": "p-1 v-popper--has-tooltip",
+      "title": "",
+      "placeholder": "",
+      "title": "",
+      "placeholder": "",
+
+

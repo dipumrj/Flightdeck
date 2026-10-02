@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1200" viewBox="0 0 1400 1200">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="40" y="40" font-family="Arial" font-size="24" font-weight="bold">Client Add Flow</text>
+
+  <rect x="80" y="90" width="420" height="60" rx="8" fill="#e1f5fe" stroke="#0288d1"/>
+  <text x="110" y="128" font-family="Arial" font-size="18">createClientFromSidebarFlow(clientData)</text>
+
+  <rect x="80" y="190" width="220" height="50" rx="8" fill="#f5f5f5" stroke="#999"/>
+  <text x="115" y="223" font-family="Arial" font-size="16">clickSidebarClientOption()</text>
+
+  <rect x="80" y="270" width="220" height="50" rx="8" fill="#f5f5f5" stroke="#999"/>
+  <text x="120" y="303" font-family="Arial" font-size="16">searchClientById('3202')</text>
+
+  <rect x="80" y="350" width="220" height="50" rx="8" fill="#f5f5f5" stroke="#999"/>
+  <text x="125" y="383" font-family="Arial" font-size="16">selectSearchedClient()</text>
+
+  <rect x="80" y="430" width="220" height="50" rx="8" fill="#f5f5f5" stroke="#999"/>
+  <text x="120" y="463" font-family="Arial" font-size="16">openAddClientModal()</text>
+
+  <rect x="80" y="510" width="420" height="90" rx="8" fill="#f5f5f5" stroke="#999"/>
+  <text x="100" y="548" font-family="Arial" font-size="16">fillClientDetails(clientData)</text>
+  <text x="100" y="575" font-family="Arial" font-size="14">profile / client / website / contact / address / category</text>
+
+  <rect x="80" y="640" width="220" height="50" rx="8" fill="#fff3e0" stroke="#f57c00"/>
+  <text x="125" y="673" font-family="Arial" font-size="16">submitClientForm()</text>
+
+  <rect x="80" y="730" width="240" height="50" rx="8" fill="#f3e5f5" stroke="#7b1fa2"/>
+  <text x="105" y="763" font-family="Arial" font-size="16">Success message check</text>
+
+  <rect x="620" y="90" width="420" height="60" rx="8" fill="#e8f5e9" stroke="#388e3c"/>
+  <text x="650" y="128" font-family="Arial" font-size="18">completeClientAddFlow(clientData)</text>
+
+  <rect x="620" y="190" width="220" height="50" rx="8" fill="#f5f5f5" stroke="#999"/>
+  <text x="660" y="223" font-family="Arial" font-size="16">navigateToClientAddPage()</text>
+
+  <rect x="620" y="270" width="220" height="50" rx="8" fill="#f5f5f5" stroke="#999"/>
+  <text x="665" y="303" font-family="Arial" font-size="16">fillClientDetails(clientData)</text>
+
+  <rect x="620" y="350" width="220" height="50" rx="8" fill="#fff3e0" stroke="#f57c00"/>
+  <text x="665" y="383" font-family="Arial" font-size="16">submitClientForm()</text>
+
+  <text x="40" y="860" font-family="Arial" font-size="14">Generated from client-add-flow.mmd</text>
+</svg>

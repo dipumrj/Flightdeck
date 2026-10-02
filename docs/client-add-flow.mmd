@@ -1,0 +1,34 @@
+flowchart TD
+  A["createClientFromSidebarFlow(clientData)"] --> B["clickSidebarClientOption()"]
+  B --> C["searchClientById('3202')"]
+  C --> D["selectSearchedClient()"]
+  D --> E["clickSidebarClientOption()"]
+  E --> F["openAddClientModal()"]
+  F --> G["fillClientDetails(clientData)"]
+
+  G --> G1["profileDescriptionInput.fill()"]
+  G --> G2["clientNameInput.fill()"]
+  G --> G3["websiteURLInput.fill()"]
+  G --> G4{"companyLogo provided?"}
+
+  G4 -- Yes --> G5["logoUploadInput.setInputFiles()"]
+  G4 -- No --> G6["contactPersonInput.fill()"]
+  G5 --> G6
+  G6 --> G7["contactEmailInput.fill()"]
+  G7 --> G8["addressInput.fill()"]
+  G8 --> G9["selectIndustryCategory(industryCategory)"]
+
+  G9 --> G10["industryCategoryInput.click()"]
+  G10 --> G11["searchInput.fill(categoryName)"]
+  G11 --> G12["categoryOption.click()"]
+  G12 --> H["submitClientForm()"]
+  H --> I["Success message check"]
+
+  J["completeClientAddFlow(clientData)"] --> K["navigateToClientAddPage()"]
+  K --> L["fillClientDetails(clientData)"]
+  L --> M["submitClientForm()"]
+
+  style A fill:#e1f5fe,stroke:#0288d1
+  style J fill:#e8f5e9,stroke:#388e3c
+  style H fill:#fff3e0,stroke:#f57c00
+  style I fill:#f3e5f5,stroke:#7b1fa2

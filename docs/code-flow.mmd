@@ -1,0 +1,27 @@
+flowchart TD
+  Tests["tests/login.spec.ts"] -->|imports| Fixture["fixtures/test.fixture.ts"]
+  Environment["config/environment.ts"]
+  PlaywrightConf["playwright.config.ts"]
+  Fixture -->|creates| LoginPageObj["pages/login.page.ts\n(LoginPage extends BasePage)"]
+  LoginPageObj -->|uses| BasePage["pages/base.page.ts"]
+  LoginPageObj -->|reads/writes| Locators["locators/login.locators.ts"]
+  LoginPageObj -->|calls| Helpers["utils/helpers.ts"]
+  Tests -->|reads| Users["test-data/users.json"]
+  Tests -->|may import| Environment
+  PlaywrightConf -.->|reads env vars (BASE_URL)| Environment
+  PlaywrightConf -->|sets use.baseURL| PagesAndTests["Browser / Playwright run"]
+  PagesAndTests["Browser / Playwright run"] --> Reports["reports/ (html, trace)"]
+
+  Tests -->|asserts| Assertions["expect(...)"]
+  Fixture -->|provides fixture| Tests
+  LoginPageObj -->|navigation| BasePage
+  BasePage -->|goto| Browser["Browser / Page"]
+  Browser --> Reports
+
+  style Tests fill:#f9f,stroke:#333,stroke-width:1px
+  style Fixture fill:#ff9,stroke:#333
+  style LoginPageObj fill:#9f9,stroke:#333
+  style Locators fill:#9ff,stroke:#333
+  style Helpers fill:#fc9,stroke:#333
+  style Users fill:#cfc,stroke:#333
+  style Reports fill:#eee,stroke:#333
